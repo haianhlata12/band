@@ -1,0 +1,55 @@
+/*pc*/
+@media(min-width:1024px){
+    
+    }
+/*Tablet*/
+@media(min-width:740px) and(max-width:1023px){
+   
+}
+/*Mobile*/
+@media(max-width:740px){
+    #nav{
+        display: block;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+#nav > li{
+    display: block;
+}
+#header .search-btn{
+    display: none;
+}
+#header{
+    overflow: hidden;
+}
+#nav .subnav{
+    position: initial;
+    background-color: #333;
+}
+#nav .subnav a{
+    color:#fff;
+    padding: 0 36px;
+}
+#nav li{
+    display: block;
+}
+#content .nasun{
+  margin-top: 30px;
+  width: 100%;
+}
+#content .member-img{
+    width: 60%;
+}
+.places-item{
+    width: 100%;
+    padding-top: 16px;
+}
+.s-col-full{
+    width: 100%;
+    padding-top: 16px;
+}
+.meo{
+    width: 100%;
+}
+}
